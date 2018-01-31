@@ -1,4 +1,4 @@
-package whitelabelingdemo.actigage.com.white_labeling_demo;
+package com.actigage.whitelabelingdemo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
