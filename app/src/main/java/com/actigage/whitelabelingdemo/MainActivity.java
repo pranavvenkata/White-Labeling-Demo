@@ -1,4 +1,4 @@
-package whitelabelingdemo.actigage.com.white_labeling_demo;
+package com.actigage.whitelabelingdemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "whitelabelingdemo.actigage.com.white_labeling_demo"
+        applicationId "com.actigage.whitelabelingdemo"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1

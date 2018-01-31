@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="whitelabelingdemo.actigage.com.white_labeling_demo">
+    package="com.actigage.whitelabelingdemo">
 
     <application
         android:allowBackup="true"
