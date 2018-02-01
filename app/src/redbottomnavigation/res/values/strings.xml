@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">White-Labeling-Demo</string>
+    <string name="agenda_text">Currently You are in Agenda Red</string>
+    <string name="speakers_text">Currently You are in Speakers Red</string>
+    <string name="sponsors_text">Currently You are in Sponsors Red</string>
+    <string name="event_ticket_text">Currently You are in Event Ticket Red</string>
+</resources>

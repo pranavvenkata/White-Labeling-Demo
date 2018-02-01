@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_item_agenda"
+        android:icon="@drawable/agenda"
+        android:title="@string/agenda"/>
+    <item
+        android:id="@+id/action_item_speakers"
+        android:icon="@drawable/speakers"
+        android:title="@string/speakers"/>
+    <item
+        android:id="@+id/action_item_sponsors"
+        android:icon="@drawable/sponsors"
+        android:title="@string/sponsors"/>
+    <item
+        android:id="@+id/action_item_event_ticket"
+        android:icon="@drawable/ticket"
+        android:title="@string/event_ticket"/>
+
+</menu>

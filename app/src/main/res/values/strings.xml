@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">White-Labeling-Demo</string>
+    <string name="agenda">Agenda</string>
+    <string name="speakers">Speakers</string>
+    <string name="sponsors">Sponsors</string>
+    <string name="event_ticket">Event Ticket</string>
+    <string name="agenda_text">Currently You are in Agenda Main</string>
+    <string name="speakers_text">Currently You are in Speakers Main</string>
+    <string name="sponsors_text">Currently You are in Sponsors Main</string>
+    <string name="event_ticket_text">Currently You are in Event Ticket Main</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
