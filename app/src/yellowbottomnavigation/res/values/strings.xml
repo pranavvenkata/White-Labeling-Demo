@@ -4,4 +4,10 @@
     <string name="speakers_text">Currently You are in Speakers Yellow</string>
     <string name="sponsors_text">Currently You are in Sponsors Yellow</string>
     <string name="event_ticket_text">Currently You are in Event Ticket Yellow</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="yellow_fragment1">Currently you are in Yellow Fragment 1</string>
+    <string name="yellow_fragment2">Currently you are in Yellow Fragment 2</string>
+
 </resources>
