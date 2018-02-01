@@ -16,20 +16,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    flavorDimensions "Environment", "Color"
+    flavorDimensions  "Color"
     productFlavors {
-        demo {
-            applicationIdSuffix '.demo'
-            versionCode 1
-            versionName '1.0'
-            dimension 'Environment'
-        }
-        full {
-            applicationIdSuffix '.full'
-            versionCode 1
-            versionName '1.0'
-            dimension 'Environment'
-        }
         yellowbottomnavigation {
             applicationId 'com.actigage.whitelabelingdemo.yellowbottomnavigation'
             versionCode 1
@@ -47,6 +35,41 @@ android {
             versionCode 1
             versionName '1.0'
             dimension 'Color'
+        }
+    }
+    sourceSets {
+        main {
+            java {
+                srcDirs = ['src/main/java']
+            }
+            resources {
+                srcDirs = ['src/main/res']
+            }
+        }
+        yellowbottomnavigation {
+            java {
+                srcDirs = ['src/yellowbottomnavigation/java','src/main/java']
+            }
+            resources {
+                srcDirs = ['src/yellowbottomnavigation/res','src/main/res']
+            }
+
+        }
+        redbottomnavigation {
+            java {
+                srcDirs = ['src/redbottomnavigation/java','src/main/java']
+            }
+            resources {
+                srcDirs = ['src/redbottomnavigation/res','src/main/res']
+            }
+        }
+        greenbottomnavigation {
+            java {
+                srcDirs = ['src/greenbottomnavigation/java','src/main/java']
+            }
+            resources {
+                srcDirs = ['src/greenbottomnavigation/res','src/main/res']
+            }
         }
     }
 }
