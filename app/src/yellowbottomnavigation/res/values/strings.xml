@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">White-Labeling-Demo</string>
+    <string name="app_name">White Labeling Yellow</string>
     <string name="agenda_text">Currently You are in Agenda Yellow</string>
     <string name="speakers_text">Currently You are in Speakers Yellow</string>
     <string name="sponsors_text">Currently You are in Sponsors Yellow</string>
