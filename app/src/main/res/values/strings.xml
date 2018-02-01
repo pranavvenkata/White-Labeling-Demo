@@ -11,4 +11,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="green_fragment1">Currently you are in Green Fragment 1</string>
+    <string name="green_fragment2">Currently you are in Green Fragment 2</string>
+    <string name="green_fragment3">Currently you are in Green Fragment 3</string>
+    <string name="green_fragment4">Currently you are in Green Fragment 4</string>
+
 </resources>
