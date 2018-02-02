@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">White Labeling</string>
     <string name="yellow_flavor">yellowbottomnavigation</string>
     <string name="red_flavor">redbottomnavigation</string>
     <string name="green_flavor">greenbottomnavigation</string>
