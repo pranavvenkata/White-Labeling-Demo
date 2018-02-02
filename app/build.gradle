@@ -18,8 +18,8 @@ android {
     }
     flavorDimensions "Color"
     productFlavors {
-        red {
-            applicationId 'com.actigage.whitelabelingdemo.red'
+        yellow {
+            applicationId 'com.actigage.whitelabelingdemo.yellow'
             versionCode 1
             versionName '1.0'
             dimension 'Color'
@@ -34,11 +34,11 @@ android {
                 srcDirs = ['src/main/res']
             }
         }
-        red {
+        yellow {
             java {
-                srcDirs = ['src/red/java', 'src/main/java']
+                srcDirs = ['src/yellow/java', 'src/main/java']
             } resources {
-                srcDirs = ['src/red/res', 'src/main/res']
+                srcDirs = ['src/yellow/res', 'src/main/res']
             }
         }
     }
