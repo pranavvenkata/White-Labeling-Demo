@@ -8,15 +8,24 @@ import android.os.Bundle;
 import android.view.Window;
 
 public class SplashActivity extends Activity {
+<<<<<<< HEAD
     // Splash screen timer
+=======
+>>>>>>> feature/feature_red_flavor
     private static int SPLASH_TIME_OUT = 3000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
+<<<<<<< HEAD
         setContentView(R.layout.activity_splash);
         new Handler().postDelayed(new Runnable() {
             @Override
+=======
+        setContentView(R.layout.activity_splash2);
+        new Handler().postDelayed(new Runnable() {
+             @Override
+>>>>>>> feature/feature_red_flavor
             public void run() {
                 Intent i = new Intent(SplashActivity.this, MainActivity.class);
                 startActivity(i);

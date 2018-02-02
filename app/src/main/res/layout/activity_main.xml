@@ -21,11 +21,19 @@
         android:layout_height="match_parent"
         android:layout_weight="1.8"
         app:tabGravity="fill"
+<<<<<<< HEAD
         app:tabIndicatorColor="@android:color/white"
         app:tabTextColor="@android:color/white"
         app:tabSelectedTextColor="@android:color/white"
         android:background="@color/colorPrimary"
 
         app:tabMode="fixed" />
+=======
+        android:background="@color/colorPrimary"
+        app:tabTextColor="@android:color/white"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabMode="fixed"
+        app:tabIndicatorColor="@android:color/white"/>
+>>>>>>> feature/feature_red_flavor
 
 </LinearLayout>
