@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
@@ -28,12 +29,19 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar">
 >>>>>>> feature/feature_red_flavor
+=======
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+>>>>>>> feature/feature_green_flavor
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            </intent-filter></activity>
     </application>
 
 </manifest>

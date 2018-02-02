@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import fragments.YellowFragment1;
 import fragments.YellowFragment2;
 =======
@@ -21,6 +22,12 @@ import fragments.RedFragment2;
 import fragments.RedFragment3;
 
 >>>>>>> feature/feature_red_flavor
+=======
+import fragments.GreenFragment1;
+import fragments.GreenFragment2;
+import fragments.GreenFragment3;
+import fragments.GreenFragment4;
+>>>>>>> feature/feature_green_flavor
 
 public class MainActivity extends AppCompatActivity {
     private TabLayout tabLayout;
@@ -34,11 +41,15 @@ public class MainActivity extends AppCompatActivity {
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
 <<<<<<< HEAD
+<<<<<<< HEAD
         setupViewPager(viewPager);
         setupTabIcons();
 =======
         setupViewPagerAndTab(viewPager);
 >>>>>>> feature/feature_red_flavor
+=======
+        setupViewPager(viewPager);
+>>>>>>> feature/feature_green_flavor
     }
 
     @Override
@@ -49,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+<<<<<<< HEAD
         adapter.addFragment(new YellowFragment1(), "YELLOW1");
         adapter.addFragment(new YellowFragment2(), "YELLOW2");
 =======
@@ -58,6 +70,12 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new RedFragment2(), "RED2");
         adapter.addFragment(new RedFragment3(), "RED3");
 >>>>>>> feature/feature_red_flavor
+=======
+        adapter.addFragment(new GreenFragment1(), "GREEN1");
+        adapter.addFragment(new GreenFragment2(), "GREEN2");
+        adapter.addFragment(new GreenFragment3(), "GREEN3");
+        adapter.addFragment(new GreenFragment4(), "GREEN4");
+>>>>>>> feature/feature_green_flavor
         viewPager.setAdapter(adapter);
         setupTabIcons();
     }
@@ -65,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(0).setIcon(R.drawable.agenda);
         tabLayout.getTabAt(1).setIcon(R.drawable.sponsors);
         tabLayout.getTabAt(2).setIcon(R.drawable.speakers);
+<<<<<<< HEAD
     }
 <<<<<<< HEAD
     private void setupTabIcons(){
@@ -74,6 +93,10 @@ public class MainActivity extends AppCompatActivity {
 
 =======
 >>>>>>> feature/feature_red_flavor
+=======
+        tabLayout.getTabAt(3).setIcon(R.drawable.ticket);
+    }
+>>>>>>> feature/feature_green_flavor
     class ViewPagerAdapter extends FragmentPagerAdapter {
         private final List<Fragment> mFragmentList = new ArrayList<>();
         private final List<String> mFragmentTitleList = new ArrayList<>();
