@@ -1,9 +1,15 @@
 *.iml
 .gradle
 /local.properties
-/.idea/workspace.xml
-/.idea/libraries
+/.idea/*
 .DS_Store
 /build
 /captures
 .externalNativeBuild
+libs/
+src/green/
+src/main/java/com/actigage/whitelabelingdemo/fragments/
+src/main/res/layout/fragment_agenda.xml
+src/main/res/layout/fragment_sponsors.xml
+src/red/
+src/yellow/

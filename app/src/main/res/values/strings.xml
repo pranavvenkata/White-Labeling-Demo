@@ -1,23 +1,11 @@
 <resources>
-<<<<<<< HEAD
-    <string name="app_name">White Labeling Red</string>
-=======
-    <string name="app_name">White Labeling Green</string>
->>>>>>> feature/feature_green_flavor
-    <string name="agenda">Agenda</string>
-    <string name="speakers">Speakers</string>
-    <string name="sponsors">Sponsors</string>
-    <string name="event_ticket">Event Ticket</string>
-    <string name="agenda_text">Currently You are in Agenda Main</string>
-    <string name="speakers_text">Currently You are in Speakers Main</string>
-    <string name="sponsors_text">Currently You are in Sponsors Main</string>
-    <string name="event_ticket_text">Currently You are in Event Ticket Main</string>
+    <string name="app_name">White Labeling</string>
+    <string name="yellow_flavor">yellowbottomnavigation</string>
+    <string name="red_flavor">redbottomnavigation</string>
+    <string name="green_flavor">greenbottomnavigation</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="green_fragment1">Currently you are in Green Fragment 1</string>
-    <string name="green_fragment2">Currently you are in Green Fragment 2</string>
-    <string name="green_fragment3">Currently you are in Green Fragment 3</string>
-    <string name="green_fragment4">Currently you are in Green Fragment 4</string>
-
+    <string name="agenda_frag">You are in Agenda Fragment</string>
+    <string name="sponsors_frag">You are in Sponsors Fragment</string>
 </resources>

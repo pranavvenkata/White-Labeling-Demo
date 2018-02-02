@@ -20,27 +20,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1.8"
+        android:background="@color/colorPrimary"
         app:tabGravity="fill"
-<<<<<<< HEAD
-<<<<<<< HEAD
         app:tabIndicatorColor="@android:color/white"
-        app:tabTextColor="@android:color/white"
         app:tabSelectedTextColor="@android:color/white"
-        android:background="@color/colorPrimary"
-
-=======
-        android:background="@color/colorPrimary"
-        app:tabTextColor="@android:color/white"
-        app:tabSelectedTextColor="@android:color/white"
-        app:tabIndicatorColor="@android:color/white"
->>>>>>> feature/feature_green_flavor
-        app:tabMode="fixed" />
-=======
-        android:background="@color/colorPrimary"
-        app:tabTextColor="@android:color/white"
-        app:tabSelectedTextColor="@android:color/white"
-        app:tabMode="fixed"
-        app:tabIndicatorColor="@android:color/white"/>
->>>>>>> feature/feature_red_flavor
-
+        app:tabTextColor="@android:color/white" />
 </LinearLayout>

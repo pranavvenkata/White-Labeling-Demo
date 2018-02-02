@@ -18,20 +18,20 @@ android {
     }
     flavorDimensions "Color"
     productFlavors {
-        yellowbottomnavigation {
-            applicationId 'com.actigage.whitelabelingdemo.yellowbottomnavigation'
+        yellow {
+            applicationId 'com.actigage.whitelabelingdemo.yellow'
             versionCode 1
             versionName '1.0'
             dimension 'Color'
         }
-        redbottomnavigation {
-            applicationId 'com.actigage.whitelabelingdemo.redbottomnavigation'
+        red {
+            applicationId 'com.actigage.whitelabelingdemo.red'
             versionCode 1
             versionName '1.0'
             dimension 'Color'
         }
-        greenbottomnavigation {
-            applicationId 'com.actigage.whitelabelingdemo.greenbottomnavigation'
+        green {
+            applicationId 'com.actigage.whitelabelingdemo.green'
             versionCode 1
             versionName '1.0'
             dimension 'Color'
@@ -46,29 +46,27 @@ android {
                 srcDirs = ['src/main/res']
             }
         }
-        yellowbottomnavigation {
+        yellow {
             java {
-                srcDirs = ['src/yellowbottomnavigation/java', 'src/main/java']
+                srcDirs = ['src/yellow/java', 'src/main/java']
             }
             resources {
-                srcDirs = ['src/yellowbottomnavigation/res', 'src/main/res']
-            }
-
-        }
-        redbottomnavigation {
-            java {
-                srcDirs = ['src/redbottomnavigation/java', 'src/main/java']
-            }
-            resources {
-                srcDirs = ['src/redbottomnavigation/res', 'src/main/res']
+                srcDirs = ['src/yellow/res', 'src/main/res']
             }
         }
-        greenbottomnavigation {
+        red {
             java {
-                srcDirs = ['src/greenbottomnavigation/java', 'src/main/java']
+                srcDirs = ['src/red/java', 'src/main/java']
+            } resources {
+                srcDirs = ['src/red/res', 'src/main/res']
+            }
+        }
+        green {
+            java {
+                srcDirs = ['src/green/java', 'src/main/java']
             }
             resources {
-                srcDirs = ['src/greenbottomnavigation/res', 'src/main/res']
+                srcDirs = ['src/green/res', 'src/main/res']
             }
         }
     }

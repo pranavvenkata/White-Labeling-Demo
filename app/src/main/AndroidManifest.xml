@@ -9,34 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
-<<<<<<< HEAD
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
-
         </activity>
         <activity
             android:name=".SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar" >
-=======
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <activity android:name=".SplashActivity"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Light.NoTitleBar">
->>>>>>> feature/feature_red_flavor
-=======
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait">
-        </activity>
-        <activity android:name=".SplashActivity"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Light.NoTitleBar" >
->>>>>>> feature/feature_green_flavor
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
