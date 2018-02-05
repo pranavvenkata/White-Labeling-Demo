@@ -26,7 +26,7 @@ public class SpeakersAdapter extends RecyclerView.Adapter<SpeakersAdapter.MyView
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.layout_agenda_cardview, parent, false);
+                .inflate(R.layout.layout_speakers_cardview, parent, false);
 
         return new MyViewHolder(itemView);
     }
