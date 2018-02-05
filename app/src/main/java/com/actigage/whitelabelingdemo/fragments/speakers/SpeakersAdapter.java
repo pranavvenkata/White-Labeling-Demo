@@ -38,7 +38,7 @@ public class SpeakersAdapter extends RecyclerView.Adapter<SpeakersAdapter.MyView
     }
     @Override
     public int getItemCount() {
-        return speakersList.size();
+        return speakersList != null ?speakersList.size() : 0;
     }
     public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public TextView txtName;
