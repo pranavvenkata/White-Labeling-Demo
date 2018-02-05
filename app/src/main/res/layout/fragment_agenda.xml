@@ -2,15 +2,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.actigage.whitelabelingdemo.fragments.AgendaFragment">
+    tools:context="com.actigage.whitelabelingdemo.fragments.speakers.SpeakersFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/agenda_frag"
         android:gravity="center"
-        android:textSize="20sp"
-        android:textColor="@color/colorPrimary"/>
+        android:text="@string/agenda_frag"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
 
 </FrameLayout>

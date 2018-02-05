@@ -8,8 +8,8 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.actigage.whitelabelingdemo.fragments.AgendaFragment;
-import com.actigage.whitelabelingdemo.fragments.SponsorsFragment;
+import com.actigage.whitelabelingdemo.fragments.agenda.AgendaFragment;
+import com.actigage.whitelabelingdemo.fragments.speakers.SpeakersFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,13 +29,13 @@ public class MainActivity extends AppCompatActivity {
     private void setupViewPagerAndTab(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new AgendaFragment(), "AGENDA");
-        adapter.addFragment(new SponsorsFragment(), "SPONSORS");
+        adapter.addFragment(new SpeakersFragment(), "SPEAKERS");
         viewPager.setAdapter(adapter);
         setupTabIcons();
     }
     private void setupTabIcons() {
         tabLayout.getTabAt(0).setIcon(R.drawable.agenda);
-        tabLayout.getTabAt(1).setIcon(R.drawable.sponsors);
+        tabLayout.getTabAt(1).setIcon(R.drawable.speakers);
     }
     class ViewPagerAdapter extends FragmentPagerAdapter {
         private final List<Fragment> mFragmentList = new ArrayList<>();
