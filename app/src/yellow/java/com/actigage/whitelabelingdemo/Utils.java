@@ -1,6 +1,7 @@
 package com.actigage.whitelabelingdemo;
 
-import com.actigage.whitelabelingdemo.fragments.speakers.Speaker;
+
+import com.actigage.whitelabelingdemo.data.speakers.Speaker;
 
 import java.util.ArrayList;
 

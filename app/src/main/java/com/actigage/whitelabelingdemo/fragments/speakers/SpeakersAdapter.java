@@ -7,46 +7,50 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.actigage.whitelabelingdemo.R;
+import com.actigage.whitelabelingdemo.data.speakers.Speaker;
 
 import java.util.ArrayList;
+
+import javax.inject.Inject;
 
 /**
  * @author Venkata Pranav .
  */
 
-public class SpeakersAdapter extends RecyclerView.Adapter<SpeakersAdapter.MyViewHolder> {
+public class SpeakersAdapter extends RecyclerView.Adapter<SpeakersAdapter.SpeakersViewHolder> {
     private ArrayList<Speaker> speakersList;
-    private SpeakersPresenter mPresenter;
+    SpeakersPresenter mPresenter;
     private SpeakersContract.View mView;
-    public SpeakersAdapter(SpeakersContract.View view, ArrayList<Speaker> lstSpeakers) {
+    public SpeakersAdapter(SpeakersContract.View view, ArrayList<Speaker> lstSpeakers,
+                           SpeakersPresenter presenter) {
         this.mView = view;
         this.speakersList = lstSpeakers;
-        this.mPresenter=new SpeakersPresenter(mView);
+        mPresenter = presenter;
     }
     @Override
-    public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public SpeakersViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.layout_speakers_cardview, parent, false);
 
-        return new MyViewHolder(itemView);
+        return new SpeakersViewHolder(itemView);
     }
     @Override
-    public void onBindViewHolder(final MyViewHolder holder, int position) {
+    public void onBindViewHolder(final SpeakersViewHolder holder, int position) {
         Speaker data = speakersList.get(position);
-        holder.txtName.setText(data.getmName());
-        holder.txtQualification.setText(data.getmQualification());
+        holder.txtName.setText(data.getTitle());
+        holder.txtDesignation.setText(data.getDescription());
     }
     @Override
     public int getItemCount() {
         return speakersList != null ?speakersList.size() : 0;
     }
-    public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        public TextView txtName;
-        public TextView txtQualification;
-        public MyViewHolder(View view) {
+    public class SpeakersViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+        TextView txtName;
+        TextView txtDesignation;
+        SpeakersViewHolder(View view) {
             super(view);
             txtName = (TextView) view.findViewById(R.id.txtName);
-            txtQualification= (TextView) view.findViewById(R.id.txtQualification);
+            txtDesignation = (TextView) view.findViewById(R.id.txtDesignation);
             view.setOnClickListener(this);
         }
         @Override
